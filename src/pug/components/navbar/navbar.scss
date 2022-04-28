@@ -1,0 +1,58 @@
+.navbar_items {
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+}
+
+.navbar_item_push {
+    margin-left: auto;
+}
+
+.navbar_links {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.navbar_link {
+    text-decoration: none;
+    color: #1F204180
+}
+
+.navbar_link_selected {
+    color: #1F2041BF;
+    font-weight: bold;
+}
+
+.navbar_link_can_expand:after {
+    content: url(/assets/img/expand_more.svg);
+    padding: 1px 5px;
+}
+
+.navbar_login_button {
+    font-size: 12px;
+    font-weight: 700;
+
+    border: 2px solid;
+    line-height: 34px;
+    border-radius: 34px;
+    background: none;
+
+    padding: 0 20px;
+
+    color: #BC9CFF;
+}
+
+.navbar_registration_button {
+    font-size: 12px;
+    font-weight: 700;
+
+    border: 2px solid;
+    line-height: 34px;
+    border-radius: 34px;
+    background: linear-gradient(180deg, #BC9CFF, #8BA4F9);
+
+    padding: 0 20px;
+
+    color: #FFF;
+}

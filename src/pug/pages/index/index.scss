@@ -1,0 +1,26 @@
+main {
+    background-image: url('/assets/img/landing_bg.jpg');
+    background: url('/assets/img/landing_bg.jpg') no-repeat center center;
+    padding-top: 70px;
+    height: 830px;
+    width: 100%;
+    background-size: cover;
+}
+
+main .content {
+    position: relative;
+}
+
+.index_page_quote {
+    font-size: 14px;
+    color: rgba($color: #1F2041BF, $alpha: 0.75);
+    text-align: right;
+    line-height: 24px;
+
+
+    position: absolute;
+    right: 0;
+    top: calc(100% - 18px);
+    transform: translateY(-100%);
+    margin: auto;
+}

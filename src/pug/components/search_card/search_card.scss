@@ -1,0 +1,53 @@
+.seach_card {
+    padding: 40px 30px 30px;
+    max-width: 380px;
+    background-color: #fff;
+    border: 1px solid rgba($color: #000000, $alpha: 0.12);
+    border-radius: 4px;
+    box-shadow: 0 0 25px rgba($color: #000000, $alpha: 0.2);
+}
+
+.seach_card_title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.seach_card_inputs_line {
+    display: flex;
+    gap: 0 20px;
+    margin-bottom: 20px;
+}
+
+.seach_card_input_item {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 5px 0;
+}
+
+.seach_card_input_label {
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.search_card_input_submit {
+    cursor: pointer;
+
+    margin-top: 10px;
+
+    background-color: #BC9CFF;
+    width: 100%;
+    height: 44px;
+    border: none;
+    border-radius: 44px;
+
+    color: #FFF;
+    vertical-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+
+    background: url(assets/img/arrow_forward.svg) no-repeat right 20px center, linear-gradient(180deg, #BC9CFF, #8BA4F9);
+}
