@@ -1,3 +1,88 @@
+.footer_links {
+    box-shadow: 0 1px 0 rgba($color: #1F20411A, $alpha: 0.1);
+}
+
+.footer_links_flex {
+    padding: 100px 0;
+    display: flex;
+    column-gap: 40px;
+}
+
+
+.footer_links_desc {
+    width: 260px;
+}
+
+.footer_links_desc_logo {
+    margin-bottom: 20px;
+}
+
+.footer_links_desc_text {
+    color: rgba($color: #1F2041BF, $alpha: 0.75);
+}
+
+.footer_links_item {
+    max-width: 150px;
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+}
+
+.footer_links_item_title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.footer_linkt_item_link {
+    text-decoration: none;
+    color: rgba($color: #1F204180, $alpha: 0.5);
+}
+
+.footer_links_subscription {
+    max-width: 260px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.footer_links_subscription_title {
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.footer_links_subscription_text {
+    color: rgba($color: #1F2041BF, $alpha: 0.75);
+}
+
+.footer_links_subscription_form {
+    margin-left: auto;
+    border: 1px solid rgba($color: #1F204140, $alpha: 0.25);
+    border-radius: 4px;
+    display: flex;
+}
+
+.footer_links_subscription_form_input {
+    border: none;
+    background: none;
+    padding: 10px 15px;
+    margin: 0;
+}
+
+.footer_links_subscription_form_button {
+    border: none;
+    background-color: #fff;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .footer_copy {
     box-shadow: 0 10px 20px rgba($color: #1F20410D, $alpha: 0.05);
     height: 70px;

@@ -1,6 +1,55 @@
 .footer
-  .footer_links 
-    | links 
+  .footer_links
+    .content
+      .footer_links_flex 
+        .footer_links_desc
+          .footer_links_desc_logo
+            include ../logo/logo.pug
+          .footer_links_desc_text
+            | Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»
+        .footer_links_item
+          .footer_links_item_title() Навигация
+          - var items = [
+          - ['О нас', "TODO: change link"], 
+          - ['Новости', "TODO: change link"], 
+          - ['Служба поддержки', "TODO: change link"], 
+          - ['Услуги', "TODO: change link"]
+          - ];
+          each item in items
+            .footer_links_item_li
+              a.footer_linkt_item_link(href=item[1])= item[0]   
+
+        .footer_links_item
+          .footer_links_item_title() О нас
+          - var items = [
+          - ['О Сервисе', "TODO: change link"], 
+          - ['Наша команда', "TODO: change link"], 
+          - ['Вакансии', "TODO: change link"], 
+          - ['Инвесторы', "TODO: change link"]
+          - ];
+          each item in items
+            .footer_links_item_li
+              a.footer_linkt_item_link(href=item[1])= item[0]
+
+        .footer_links_item
+          .footer_links_item_title() Служба поддержки
+          - var items = [
+          - ['Соглашения', "TODO: change link"], 
+          - ['Сообщества', "TODO: change link"], 
+          - ['Связь с нами', "TODO: change link"], 
+          - ];
+          each item in items
+            .footer_links_item_li
+              a.footer_linkt_item_link(href=item[1])= item[0]
+        
+        .footer_links_subscription
+          .footer_links_subscription_title() Подписка
+          .footer_links_subscription_text() Получайте специальные предложения и новости сервиса
+          form.footer_links_subscription_form
+            input.footer_links_subscription_form_input(type="email", name="subcription_email", placeholder="Email")
+            button.footer_links_subscription_form_button
+              img(src="assets/img/arrow_forward_color.svg")
+
   .footer_copy
     .content
       .footer_copy_items
