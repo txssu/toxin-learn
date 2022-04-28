@@ -1,0 +1,32 @@
+.footer_copy {
+    box-shadow: 0 10px 20px rgba($color: #1F20410D, $alpha: 0.05);
+    height: 70px;
+}
+
+.footer_copy_items {   
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+}
+
+.footer_copy_item_copy {
+    color: rgba($color: #1F2041BF, $alpha: 0.75);
+}
+
+
+.footer_copy_item_socials {
+    margin-left: auto;
+
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.footer_copy_item_social {
+    font-size: 24px;
+
+    background: linear-gradient(180deg, #BC9CFF, #8BA4F9);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
