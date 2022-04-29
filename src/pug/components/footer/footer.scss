@@ -56,7 +56,13 @@
     margin: 0;
 }
 
+.footer_links_subscription_form_input:hover {
+    border: none;
+}
+
 .footer_links_subscription_form_button {
+    cursor: pointer;
+
     border: none;
     background-color: #fff;
     width: 44px;

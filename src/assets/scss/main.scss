@@ -33,6 +33,14 @@ body {
     height: 100%;
 }
 
+*:focus {
+    outline: none;
+}
+
+.input:hover {
+    outline: 2px solid $primary-color;
+}
+
 @import '../../pug/pages/index/index.scss';
 
 
