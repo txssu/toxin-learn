@@ -5,10 +5,10 @@
         .footer_links_desc
           .footer_links_desc_logo
             include ../logo/logo.pug
-          .footer_links_desc_text
+          div
             | Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»
         .footer_links_item
-          .footer_links_item_title() Навигация
+          h3.h3() Навигация
           - var items = [
           - ['О нас', "TODO: change link"], 
           - ['Новости', "TODO: change link"], 
@@ -17,10 +17,10 @@
           - ];
           each item in items
             .footer_links_item_li
-              a.footer_linkt_item_link(href=item[1])= item[0]   
+              a.footer_link_item_link(href=item[1])= item[0]   
 
         .footer_links_item
-          .footer_links_item_title() О нас
+          h3.h3() О нас
           - var items = [
           - ['О Сервисе', "TODO: change link"], 
           - ['Наша команда', "TODO: change link"], 
@@ -29,10 +29,10 @@
           - ];
           each item in items
             .footer_links_item_li
-              a.footer_linkt_item_link(href=item[1])= item[0]
+              a.footer_link_item_link(href=item[1])= item[0]
 
         .footer_links_item
-          .footer_links_item_title() Служба поддержки
+          h3.h3() Служба поддержки
           - var items = [
           - ['Соглашения', "TODO: change link"], 
           - ['Сообщества', "TODO: change link"], 
@@ -40,10 +40,10 @@
           - ];
           each item in items
             .footer_links_item_li
-              a.footer_linkt_item_link(href=item[1])= item[0]
+              a.footer_link_item_link(href=item[1])= item[0]
         
         .footer_links_subscription
-          .footer_links_subscription_title() Подписка
+          h3.h3() Подписка
           .footer_links_subscription_text() Получайте специальные предложения и новости сервиса
           form.footer_links_subscription_form
             input.footer_links_subscription_form_input(type="email", name="subcription_email", placeholder="Email")

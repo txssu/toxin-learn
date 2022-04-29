@@ -1,3 +1,5 @@
+@import "~/assets/scss/variables.scss";
+
 .footer_links {
     box-shadow: 0 1px 0 rgba($color: #1F20411A, $alpha: 0.1);
 }
@@ -17,10 +19,6 @@
     margin-bottom: 20px;
 }
 
-.footer_links_desc_text {
-    color: rgba($color: #1F2041BF, $alpha: 0.75);
-}
-
 .footer_links_item {
     max-width: 150px;
     display: flex;
@@ -28,15 +26,9 @@
     flex-direction: column;
 }
 
-.footer_links_item_title {
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 12px;
-}
-
-.footer_linkt_item_link {
+.footer_link_item_link {
     text-decoration: none;
-    color: rgba($color: #1F204180, $alpha: 0.5);
+    color: $dark-50;
 }
 
 .footer_links_subscription {
@@ -46,14 +38,8 @@
     row-gap: 20px;
 }
 
-.footer_links_subscription_title {
-    font-weight: bold;
-    font-size: 12px;
-    text-transform: uppercase;
-}
-
 .footer_links_subscription_text {
-    color: rgba($color: #1F2041BF, $alpha: 0.75);
+    color: $dark-75;
 }
 
 .footer_links_subscription_form {
@@ -96,7 +82,7 @@
 }
 
 .footer_copy_item_copy {
-    color: rgba($color: #1F2041BF, $alpha: 0.75);
+    color: $dark-75;
 }
 
 
@@ -111,7 +97,7 @@
 .footer_copy_item_social {
     font-size: 24px;
 
-    background: linear-gradient(180deg, #BC9CFF, #8BA4F9);
+    background: $main-gradient;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }

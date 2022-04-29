@@ -1,17 +1,17 @@
 .seach_card
-  h1.seach_card_title() Найдём номера под ваши желания
+  h1.h1.seach_card_title() Найдём номера под ваши желания
   form
     div.seach_card_inputs_line
       div.seach_card_input_item
-        label.seach_card_input_label(for="search_card_arrival") Прибытие
+        label.h3(for="search_card_arrival") Прибытие
         input#search_card_arrival(type="date", name="search_card_arrival")
       div.seach_card_input_item
-        label.seach_card_input_label(for="search_card_checkout") Выезд
+        label.h3(for="search_card_checkout") Выезд
         input#search_card_checkout(type="date", name="search_card_checkout")
     div.seach_card_inputs_line
       div.seach_card_input_item
-        label.seach_card_input_label(for="search_card_guests") Гости
+        label.h3(for="search_card_guests") Гости
         select#search_card_guests(name="search_card_guests") 
           - for (let count = 0; count < 10; count++)
               option() #{count}
-    button.search_card_input_submit(type="submit") Подобрать номер
+    button.h3.search_card_input_submit(type="submit") Подобрать номер

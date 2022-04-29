@@ -1,3 +1,5 @@
+@import "~/assets/scss/variables.scss";
+
 .navbar_items {
     display: flex;
     padding: 15px 0;
@@ -16,43 +18,34 @@
 
 .navbar_link {
     text-decoration: none;
-    color: #1F204180
+    color: $dark-50;
 }
 
 .navbar_link_selected {
-    color: #1F2041BF;
+    color: $dark-75;
     font-weight: bold;
 }
 
 .navbar_link_can_expand:after {
     content: url(/assets/img/expand_more.svg);
-    padding: 1px 5px;
+    padding: 1px 0 1px 5px;
 }
 
 .navbar_login_button {
-    font-size: 12px;
-    font-weight: 700;
-
     border: 2px solid;
-    line-height: 34px;
     border-radius: 34px;
     background: none;
 
-    padding: 0 20px;
+    padding: 5px 20px;
 
-    color: #BC9CFF;
+    color: $primary-color;
 }
 
 .navbar_registration_button {
-    font-size: 12px;
-    font-weight: 700;
-
-    border: 2px solid;
-    line-height: 34px;
     border-radius: 34px;
-    background: linear-gradient(180deg, #BC9CFF, #8BA4F9);
+    background: $main-gradient;
 
-    padding: 0 20px;
+    padding: 5px 20px;
 
     color: #FFF;
 }
